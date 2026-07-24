@@ -24,7 +24,7 @@ export default function DespreNoi() {
                 }}
               >
                 <Image
-                  src="/images/vila-fascination/40682121.jpg"
+                  src="/images/vila-fascination/40682125.jpg"
                   alt="Vila Fascination Predeal"
                   fill
                   onLoad={() => setLoaded(true)}

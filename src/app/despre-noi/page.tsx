@@ -22,7 +22,7 @@ export default function DespreNoiPage() {
         <Reveal>
           <div className="relative aspect-video overflow-hidden mb-12">
             <Image
-              src="/images/vila-fascination/hotel-06.jpg"
+              src="/images/vila-fascination/40682125.jpg"
               alt="Vila Fascination Predeal"
               fill
               priority
