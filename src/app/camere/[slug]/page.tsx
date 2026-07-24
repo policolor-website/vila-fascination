@@ -12,9 +12,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const room = getRoomBySlug(slug);
-  if (!room) return { title: "Cameră — Pensiunea Donaris" };
+  if (!room) return { title: "Cameră — Vila Fascination Predeal" };
   return {
-    title: `${room.name} — Pensiunea Donaris`,
+    title: `${room.name} — Vila Fascination Predeal`,
     description: room.description,
   };
 }

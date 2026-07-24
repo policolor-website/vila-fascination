@@ -5,8 +5,8 @@ import BookingEngine from "@/components/BookingEngine";
 import Reveal from "@/components/Reveal";
 
 export const metadata = {
-  title: "Camere — Pensiunea Donaris",
-  description: "Descoperă camerele și apartamentele Pensiunii Donaris din Eșelnița.",
+  title: "Camere — Vila Fascination Predeal",
+  description: "Descoperă camerele și apartamentul Vila Fascination Predeal.",
 };
 
 export default function RoomsPage() {
@@ -17,7 +17,7 @@ export default function RoomsPage() {
           <h1 className="font-display text-5xl font-bold text-cream mb-4">
             Camerele noastre
           </h1>
-          <p className="text-muted text-lg">Cazare Eșelnița · Cazanele Dunării</p>
+          <p className="text-muted text-lg">Cazare Predeal · Muntele Bucegi</p>
           <div className="w-24 h-px gold-line mx-auto mt-6" />
         </div>
 

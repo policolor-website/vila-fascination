@@ -13,7 +13,7 @@ export default function GalleryPage() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
           <h1 className="font-display text-5xl font-bold text-cream mb-4">Galerie</h1>
-          <p className="text-muted text-lg">Pensiunea Donaris · Eșelnița</p>
+          <p className="text-muted text-lg">Vila Fascination · Predeal</p>
           <div className="w-24 h-px gold-line mx-auto mt-6" />
         </div>
 

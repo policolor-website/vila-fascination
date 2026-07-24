@@ -9,8 +9,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = blogPosts.find((p) => p.slug === slug);
-  if (!post) return { title: "Articol — Pensiunea Donaris" };
-  return { title: `${post.title} — Pensiunea Donaris`, description: post.excerpt };
+  if (!post) return { title: "Articol — Vila Fascination Predeal" };
+  return { title: `${post.title} — Vila Fascination Predeal`, description: post.excerpt };
 }
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -46,9 +46,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             {post.excerpt}
           </p>
           <p className="text-cream/70 leading-relaxed">
-            Acest articol face parte din seria de ghiduri turistice Pensiunii Donaris.
-            Vă invităm să descoperiți frumusețile zonei Cazanelor Dunării și să
-            vă cazați la noi pentru o experiență de neuitat pe malul Dunării.
+            Acest articol face parte din seria de ghiduri turistice Vila Fascination
+            Predeal. Vă invităm să descoperiți frumusețile zonei Predeal și să
+            vă cazați la noi pentru o experiență de neuitat la munte.
           </p>
         </div>
 

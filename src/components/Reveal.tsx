@@ -16,19 +16,39 @@ export default function Reveal({
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
+
+    const reveal = () => {
+      setTimeout(() => el.classList.add("visible"), delay);
+    };
+
+    const rect = el.getBoundingClientRect();
+    const inViewport =
+      rect.top < window.innerHeight && rect.bottom > 0;
+
+    if (inViewport) {
+      reveal();
+      return;
+    }
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            setTimeout(() => el.classList.add("visible"), delay);
+            reveal();
             observer.unobserve(el);
           }
         });
       },
-      { threshold: 0.15 }
+      { threshold: 0.1 }
     );
     observer.observe(el);
-    return () => observer.disconnect();
+
+    const fallback = setTimeout(reveal, 3000);
+
+    return () => {
+      observer.disconnect();
+      clearTimeout(fallback);
+    };
   }, [delay]);
 
   return (

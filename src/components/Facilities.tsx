@@ -3,13 +3,13 @@ import Reveal from "./Reveal";
 
 const iconMap: Record<string, string> = {
   car: "🚗",
-  family: "👨‍👩‍👧‍👦",
-  balcony: "🌅",
-  wifi: "📶",
-  terrace: "🌿",
-  boat: "🚤",
-  pool: "🏊",
-  fish: "🎣",
+  wifi: "�",
+  garden: "�",
+  bbq: "�",
+  kids: "🧒",
+  balcony: "🏔️",
+  breakfast: "�",
+  accessible: "♿",
 };
 
 export default function Facilities() {
@@ -21,7 +21,7 @@ export default function Facilities() {
             Facilități
           </p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-cream">
-            Facilitățile pensiunii
+            Facilitățile vilei
           </h2>
           <div className="w-24 h-px gold-line mx-auto mt-6" />
         </Reveal>

@@ -4,8 +4,8 @@ import { blogPosts } from "@/lib/data";
 import Reveal from "@/components/Reveal";
 
 export const metadata = {
-  title: "Blog — Pensiunea Donaris",
-  description: "Descoperă atracțiile turistice din Eșelnița și Cazanele Dunării.",
+  title: "Blog — Vila Fascination Predeal",
+  description: "Descoperă atracțiile turistice din Predeal și zona munților Bucegi.",
 };
 
 export default function BlogPage() {
@@ -14,7 +14,7 @@ export default function BlogPage() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
           <h1 className="font-display text-5xl font-bold text-cream mb-4">Blog</h1>
-          <p className="text-muted text-lg">Descoperă zona Cazanelor Dunării</p>
+          <p className="text-muted text-lg">Descoperă zona Predeal și munții Bucegi</p>
           <div className="w-24 h-px gold-line mx-auto mt-6" />
         </div>
 

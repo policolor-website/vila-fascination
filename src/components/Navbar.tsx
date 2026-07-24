@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const navLinks = [
@@ -41,14 +40,9 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <Link href="/" onClick={closeMobile} className="no-underline">
-          <Image
-            src="/images/LOGO-PENSIUNEA-DONARIS-4.png"
-            alt="Pensiunea Donaris"
-            width={180}
-            height={45}
-            priority
-            className="h-10 w-auto"
-          />
+          <span className="font-display text-xl font-bold text-cream tracking-wide">
+            Vila <span className="text-gold">Fascination</span>
+          </span>
         </Link>
 
         <ul className="hidden md:flex gap-8 list-none items-center">

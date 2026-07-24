@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <video
           autoPlay
@@ -11,7 +11,7 @@ export default function Hero() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="/hotel.mp4" type="video/mp4" />
+          <source src="/vila.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 hero-overlay" />
       </div>
@@ -21,20 +21,21 @@ export default function Hero() {
           className="text-gold text-sm font-semibold uppercase tracking-[0.3em] mb-4"
           style={{ animation: "fadeUp 0.8s ease forwards" }}
         >
-          Eșelnița · Cazanele Dunării
+          Predeal · Muntele Bucegi
         </p>
         <h1
           className="font-display text-4xl md:text-6xl font-bold text-cream leading-tight mb-4"
           style={{ animation: "fadeUp 0.8s ease 0.2s forwards", opacity: 0 }}
         >
-          Pensiunea <span className="text-gradient-gold">Donaris</span>
+          Vila <span className="text-gradient-gold">Fascination</span>
         </h1>
         <p
           className="text-base md:text-lg text-cream/80 max-w-2xl mx-auto mb-6 leading-relaxed"
           style={{ animation: "fadeUp 0.8s ease 0.4s forwards", opacity: 0 }}
         >
-          Experiența unică a relaxării pe malul Dunării. Confort modern într-un
-          cadru natural spectaculos, la 25 km de Porțile de Fier 1.
+          Escapada perfectă la munte, departe de agitația orașului. Camere
+          confortabile cu balcon, mic dejun inclus și grădină generoasă, la
+          1.4 km de centrul stațiunii Predeal.
         </p>
         <div
           className="flex flex-col sm:flex-row gap-4 justify-center"

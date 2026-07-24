@@ -35,8 +35,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-muted text-xs uppercase tracking-wider mb-1">Telefon</p>
-                  <a href="tel:0725916812" className="text-cream hover:text-gold no-underline transition-colors">
-                    0725916812
+                  <a href="tel:0745575225" className="text-cream hover:text-gold no-underline transition-colors">
+                    0745 575 225
                   </a>
                 </div>
               </div>
@@ -46,8 +46,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-muted text-xs uppercase tracking-wider mb-1">Email</p>
-                  <a href="mailto:rezervari@pensiuneadonaris.ro" className="text-cream hover:text-gold no-underline transition-colors">
-                    rezervari@pensiuneadonaris.ro
+                  <a href="mailto:info@vilafascination.ro" className="text-cream hover:text-gold no-underline transition-colors">
+                    info@vilafascination.ro
                   </a>
                 </div>
               </div>
@@ -57,9 +57,9 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-muted text-xs uppercase tracking-wider mb-1">Adresă</p>
-                  <p className="text-cream">Eșelnița, 227195, România</p>
+                  <p className="text-cream">Strada Plăieșilor 41, Predeal, 505300, România</p>
                   <a
-                    href="https://www.google.com/maps/dir//227195+E%C8%99elni%C8%9Ba/@44.7000929,22.3433695,14z"
+                    href="https://www.google.com/maps/dir//Strada+Pl%C4%83ie%C8%99ilor+41+Predeal/@45.4912,25.5736,14z"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gold text-sm hover:text-gold-light no-underline transition-colors"
@@ -72,13 +72,13 @@ export default function ContactPage() {
 
             <div className="mt-8 relative aspect-video overflow-hidden border border-border-dark">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.123456789!2d22.3433695!3d44.7000929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475186fa615d4683%3A0x943e2bd58042e5a5!2sE%C8%99elni%C8%9Ba!5e0!3m2!1sro!2sro!4v1700000000000"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.123456789!2d25.5736!3d45.4912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b34dabf0000000%3A0x0!2sStrada%20Pl%C4%83ie%C8%99ilor%2041%2C%20Predeal!5e0!3m2!1sro!2sro!4v1700000000000"
                 width="100%"
                 height="100%"
                 style={{ border: 0, filter: "invert(0.9) hue-rotate(180deg)" }}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Pensiunea Donaris pe hartă"
+                title="Vila Fascination Predeal pe hartă"
               />
             </div>
           </div>

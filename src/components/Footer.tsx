@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,16 +6,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
           <div>
-            <Image
-              src="/images/LOGO-PENSIUNEA-DONARIS-4.png"
-              alt="Pensiunea Donaris"
-              width={180}
-              height={45}
-              className="h-10 w-auto mb-4"
-            />
-            <p className="text-sm text-muted leading-relaxed">
-              Cazare Eșelnița cu vedere la Dunăre, aproape de Cazanele Dunării.
-              Confort, natură și peisaje spectaculoase.
+            <span className="font-display text-xl font-bold text-cream tracking-wide">
+              Vila <span className="text-gold">Fascination</span>
+            </span>
+            <p className="text-sm text-muted leading-relaxed mt-4">
+              Cazare confortabilă cu mic dejun inclus în Predeal. Camere cu balcon,
+              grădină, parcare gratuită și facilități pentru familii.
             </p>
           </div>
 
@@ -38,9 +33,8 @@ export default function Footer() {
               Informații contact
             </h3>
             <ul className="flex flex-col gap-2 list-none">
-              <li><a href="tel:0725916812" className="text-sm text-muted hover:text-gold no-underline transition-colors">0725916812</a></li>
-              <li><a href="mailto:rezervari@pensiuneadonaris.ro" className="text-sm text-muted hover:text-gold no-underline transition-colors">rezervari@pensiuneadonaris.ro</a></li>
-              <li className="text-sm text-muted">Eșelnița, 227195, România</li>
+              <li><a href="tel:0745575225" className="text-sm text-muted hover:text-gold no-underline transition-colors">0745 575 225</a></li>
+              <li className="text-sm text-muted">Strada Plăieșilor 41, Predeal, 505300, România</li>
             </ul>
           </div>
 
@@ -64,10 +58,10 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-border-dark flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted">
-            © {new Date().getFullYear()} Pensiunea Donaris. Toate drepturile rezervate.
+            © {new Date().getFullYear()} Vila Fascination Predeal. Toate drepturile rezervate.
           </p>
           <p className="text-xs text-muted">
-            Eșelnița, 227195, România · Cazanele Dunării
+            Strada Plăieșilor 41, Predeal, 505300, România
           </p>
         </div>
       </div>

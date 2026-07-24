@@ -2,9 +2,9 @@ import Image from "next/image";
 import Reveal from "@/components/Reveal";
 
 export const metadata = {
-  title: "Despre Noi — Pensiunea Donaris",
+  title: "Despre Noi — Vila Fascination Predeal",
   description:
-    "Pensiunea Donaris — cazare în Eșelnița pe malul Dunării, aproape de Cazanele Dunării.",
+    "Vila Fascination Predeal — cazare confortabilă cu mic dejun inclus în Predeal, la 1.4 km de centru.",
 };
 
 export default function DespreNoiPage() {
@@ -15,15 +15,15 @@ export default function DespreNoiPage() {
           <h1 className="font-display text-5xl font-bold text-cream mb-4">
             Despre Noi
           </h1>
-          <p className="text-muted text-lg">Pensiunea Donaris · Eșelnița</p>
+          <p className="text-muted text-lg">Vila Fascination · Predeal</p>
           <div className="w-24 h-px gold-line mx-auto mt-6" />
         </div>
 
         <Reveal>
           <div className="relative aspect-video overflow-hidden mb-12">
             <Image
-              src="/images/SNY09679-min-scaled.jpg"
-              alt="Pensiunea Donaris"
+              src="/images/vila-fascination/hotel-06.jpg"
+              alt="Vila Fascination Predeal"
               fill
               priority
               className="object-cover"
@@ -34,22 +34,22 @@ export default function DespreNoiPage() {
         <Reveal>
           <div className="space-y-6 text-cream/80 leading-relaxed">
             <p className="text-lg">
-              Pensiunea Donaris este situată în Eșelnița, pe malul Dunării,
-              la 25 km de Porțile de Fier 1. Oferim cazare de calitate într-un
-              cadru natural spectaculos, cu vedere directă la Cazanele Dunării.
+              Vila Fascination este situată în Predeal, cea mai înaltă stațiune
+              montană din România, la 1.4 km de centrul orașului. Oferim cazare
+              de calitate într-un cadru natural spectaculos, cu vedere la munte
+              și acces rapid la principalele atracții din zonă.
             </p>
             <p>
               Locația noastră îți oferă acces rapid la principalele atracții
-              turistice din zonă: Statuia lui Decebal, Tabula Traiana,
-              Mănăstirea Mraconia, Peștera Ponicova și plimbările cu barca
-              prin Cazanele Dunării. Pensiunea este poziționată ideal pentru
-              explorarea acestor obiective.
+              turistice din zonă: Castelul Bran, Castelul Peleș, Cetatea Râșnov,
+              Dino Parc și pârtiile de schi Clăbucet. Vila este poziționată
+              ideal pentru explorarea acestor obiective.
             </p>
             <p>
               Îmbinăm confortul modern cu liniștea naturii. Dispunem de camere
-              spațioase dotate cu aer condiționat, Wi-Fi gratuit, televizor,
-              baie privată și vedere panoramică. În curte ai acces la grătar,
-              foișor și ponton, perfecte pentru relaxare.
+              confortabile dotate cu WiFi, TV cu ecran plat, baie privată și
+              balcon cu vedere la munte. În curte ai acces la grădină, grătar
+              și zonă de masă, perfecte pentru relaxare.
             </p>
           </div>
         </Reveal>
@@ -57,24 +57,24 @@ export default function DespreNoiPage() {
         <Reveal delay={200}>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
             <div className="bg-night-light border border-border-dark p-6 text-center card-hover">
-              <div className="text-3xl mb-3">🚤</div>
-              <h3 className="text-cream font-semibold mb-2">Plimbări cu barca</h3>
+              <div className="text-3xl mb-3">🏔️</div>
+              <h3 className="text-cream font-semibold mb-2">Vedere la munte</h3>
               <p className="text-muted text-sm">
-                Explorează Cazanele Dunării, Statuia lui Decebal și Tabula Traiana
+                Camere cu balcon și priveliște spre munții Bucegi
               </p>
             </div>
             <div className="bg-night-light border border-border-dark p-6 text-center card-hover">
-              <div className="text-3xl mb-3">🏊</div>
-              <h3 className="text-cream font-semibold mb-2">Piscină cu vedere</h3>
+              <div className="text-3xl mb-3">�</div>
+              <h3 className="text-cream font-semibold mb-2">Mic dejun inclus</h3>
               <p className="text-muted text-sm">
-                Relaxează-te și răcorește-te admirând peisajul unic al falezei
+                Mic dejun variat și proaspăt, servit în fiecare dimineață
               </p>
             </div>
             <div className="bg-night-light border border-border-dark p-6 text-center card-hover">
-              <div className="text-3xl mb-3">🎣</div>
-              <h3 className="text-cream font-semibold mb-2">Ponton & Pescuit</h3>
+              <div className="text-3xl mb-3">�</div>
+              <h3 className="text-cream font-semibold mb-2">Grădină & Grătar</h3>
               <p className="text-muted text-sm">
-                Ponton privat pentru cafea dimineața sau pescuit
+                Grădină generoasă cu mobilier exterior, zonă masă și grătar gratuit
               </p>
             </div>
           </div>
@@ -87,15 +87,15 @@ export default function DespreNoiPage() {
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
               {[
-                "Aer condiționat",
-                "Smart TV",
-                "WiFi de mare viteză",
-                "Parcare gratuită monitorizată",
-                "Ponton privat",
-                "Piscină cu vedere",
-                "Grătar & foișor",
+                "WiFi gratuit",
+                "TV cu ecran plat",
+                "Mic dejun inclus",
+                "Parcare gratuită",
+                "Grădină & grătar",
+                "Balcon cu vedere la munte",
+                "Trambulină & sală de joacă",
                 "Baie privată",
-                "Vedere panoramică",
+                "Copii până la 8 ani gratuit",
               ].map((f) => (
                 <div key={f} className="flex items-center gap-2 text-sm text-cream/80">
                   <span className="text-gold">✦</span>

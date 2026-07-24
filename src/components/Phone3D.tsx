@@ -141,7 +141,7 @@ export default function Phone3D() {
         <div className="absolute top-[120px] md:top-[160px] left-1/2 -translate-x-1/2 bg-white rounded-2xl px-3 py-2 md:px-5 md:py-3 shadow-2xl z-10 animate-bubble-pop whitespace-nowrap">
           <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-4 h-4 bg-white rotate-45" />
           <p className="font-display text-xs md:text-sm text-black font-semibold text-center">Rezervare telefonica</p>
-          <a href="tel:0725916812" className="text-black text-sm md:text-lg font-bold block text-center pointer-events-auto hover:text-gold transition-colors">0725 916 812</a>
+          <a href="tel:0745575225" className="text-black text-sm md:text-lg font-bold block text-center pointer-events-auto hover:text-gold transition-colors">0745 575 225</a>
         </div>
       </div>
     </div>

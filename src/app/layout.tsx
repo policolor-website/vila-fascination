@@ -19,9 +19,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Pensiunea Donaris — Cazare Eșelnița | Cazanele Dunării",
+  title: "Vila Fascination Predeal — Cazare la munte | Predeal",
   description:
-    "Pensiunea Donaris oferă cazare în Eșelnița cu vedere la Dunăre, aproape de Cazanele Dunării. Confort, natură și peisaje spectaculoase.",
+    "Vila Fascination Predeal oferă cazare confortabilă cu mic dejun inclus, balcon cu vedere la munte, parcare gratuită și grădină. Ideal pentru familii și relaxare.",
 };
 
 export default function RootLayout({

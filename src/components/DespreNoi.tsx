@@ -24,8 +24,8 @@ export default function DespreNoi() {
                 }}
               >
                 <Image
-                  src="/images/SNY09655-min-1-scaled.jpg"
-                  alt="Pensiunea Donaris"
+                  src="/images/vila-fascination/hotel-08.jpg"
+                  alt="Vila Fascination Predeal"
                   fill
                   onLoad={() => setLoaded(true)}
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -48,20 +48,20 @@ export default function DespreNoi() {
                 Despre noi
               </p>
               <h2 className="font-display text-4xl md:text-5xl font-bold text-cream mb-6">
-                Cazare Eșelnița la Pensiunea Donaris
+                Cazare la munte în Predeal
               </h2>
               <div className="w-24 h-px gold-line mb-6" />
               <p className="text-cream/80 leading-relaxed mb-4">
-                Pensiunea Donaris oferă cazare în Eșelnița cu vedere la Dunăre,
-                la 25 km de Porțile de Fier 1. Locația îți oferă acces rapid la
-                principalele atracții turistice din zonă: Statuia lui Decebal,
-                Tabula Traiana, Mănăstirea Mraconia și plimbările cu barca pe Dunăre.
+                Vila Fascination oferă cazare confortabilă în Predeal, la 1.4 km
+                de centrul stațiunii. Locația îți oferă acces rapid la principalele
+                atracții din zonă: Castelul Bran, Castelul Peleș, Cetatea Râșnov,
+                Dino Parc și pârtiile de schi Clăbucet.
               </p>
               <p className="text-cream/70 leading-relaxed mb-8">
-                Îmbinăm confortul modern cu liniștea naturii. Camere spațioase,
-                aer condiționat, Wi-Fi gratuit, ponton privat, piscină cu vedere
-                și parcare gratuită — totul într-un cadru natural spectaculos
-                pe malul Dunării.
+                Îmbinăm confortul modern cu liniștea naturii. Camere cu balcon
+                și vedere la munte, Wi-Fi gratuit, mic dejun inclus, grădină cu
+                grătar, parcare gratuită și facilități pentru familii — totul
+                într-un cadru natural spectaculos la poalele munților Bucegi.
               </p>
               <Link
                 href="/despre-noi"
